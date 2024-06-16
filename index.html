@@ -10,36 +10,44 @@ Released under the MIT license: http://jsbin.mit-license.org
 <html>
     <head>
         <meta charset="utf-8">
-        <title>ErieFoodCenter</title>
+        <title>ErieFood</title>
         <style>
             body {
-                background-color: rgb(42, 16, 145);
+                background-color: rgb(0,0,139);
             }
-            h1 {
-                color: orange;
+            #welcome {
+                width: 55%;
+                color: blue;
+                clear: left;
+                background-color: orange;
+                border: 3px solid green;
             }
             #pic {
+                float: left;
                 border: 15px inset rgb(160, 247, 102);
                 margin-left: 10px;
                 margin-right: 5px;
                 margin-bottom: 12px;
-                float: left;
             }
             .text1 {
                   background-color: rgb(35, 250, 35);
-                  border: 3px dashed orange;
-                  width: 43%;
                   position: absolute;
                   right: 1;
                   top: 1;
-                  bottom: 1;
                   font-weight: 91;
+                  width: 43%;
+                  height: 100%;
+                  border:5px solid orange;
+                  margin-left: 10px;
+                  margin-right: 5px;
+                  margin-bottom: 12px;
             }
             #phones {
                 text-align: center;
                 background-color: rgb(250, 155, 30);
-                clear: left;
+                clear: both;
                 margin-top: 4px;
+                
             }
             #thanks {
                 color: blue;
@@ -47,11 +55,11 @@ Released under the MIT license: http://jsbin.mit-license.org
 </style>
 </head>
     <body>
-    <h1>Welcome to Erie Food!<br>9875 S Dixie Hwy<br>Erie Mi 48133</h1>
+      <h1 id="welcome">Welcome to Erie Food!<br>9875 S Dixie Hwy<br>Erie Mi 48133</h1></div>
     <img id="pic" src="https://townsquare.media/site/156/files/2021/03/Pizza-GettyImages-1042948900-1.jpg" width="671" alt="burger">
     <div class="text1"><p>Welcome to Erie Food!<br>This is the Erie Food website!<br> Here we will show you our special deals and our menu!<br>
     </p>
-    <h1 id="thanks">Thank You!</h1></div>
+      <h1 id="thanks">Thank you!</h1></div>
     <p></p>
       <div id="phones"> <p>Phone numbers<br>Pizz 1/Store:<strong>(734)848-4509</strong><br>Pizza:<strong>(734)848-4920</strong></p><p>Created by:<strong>Naramsin Pattah</strong></p></div>
     </body>
